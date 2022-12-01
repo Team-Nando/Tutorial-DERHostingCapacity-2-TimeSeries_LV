@@ -1,0 +1,1 @@
+new transformer.transformer_MG1_TR1 buses=[SourceBus bus_MG1_T1] Conns=[Delta Wye] kVs=[22 0.433] kVAs=[500 500] %loadloss=1.1 %noloadloss=0.1 XHL=4.88

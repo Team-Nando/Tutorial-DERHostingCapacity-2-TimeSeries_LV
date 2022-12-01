@@ -1,0 +1,8 @@
+Set DefaultBaseFrequency=50
+New circuit.LVcircuit basekv=22.0 pu=1.00 angle=0 frequency=50 phases=3
+Redirect LVcircuit-transformers.txt
+Redirect LVcircuit-linecodes.txt
+Redirect LVcircuit-lines.txt
+Redirect LVcircuit-servicelines.txt
+Redirect LVcircuit-loads.txt
+
