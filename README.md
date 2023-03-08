@@ -18,27 +18,31 @@ After doing this tutorial, you are expected to:
 - Understand how to determine the solar PV hosting capacity of LV networks.
 
 ### Pre-Requisites for Part 2
-- You should have completed [Part 1](https://github.com/Team-Nando-Training/Tutorial-DERHostingCapacity-1-dss_python) and, of course, be familiar with [OpenDSS and the modelling of distribution networks and DERs](https://sites.google.com/view/luisfochoa/research-tools/opendss-training-material).
-
+- You should have completed [Part 1](https://github.com/Team-Nando-Training/Tutorial-DERHostingCapacity-1-AdvancedToolsLV) and, of course, be familiar with [OpenDSS and the modelling of distribution networks and DERs](https://sites.google.com/view/luisfochoa/research-tools/opendss-training-material).
 
 ## Run Part 2
+Make sure you have installed Anaconda, the dss_python module, etc. as specified in [Part 0](https://github.com/Team-Nando-Training/Tutorial-DERHostingCapacity-0-dss_python). Otherwise, you will not be able to go through the tutorial.
+
+1. Download all the files using the green **`<> Code`** button at the top right.
+   - You will get a ZIP file with a folder that contains all the files.
+   - Unzip the file an place the folder somewhere in your computer/laptop.
+3. To open the Jupyter notebook file (extension **`ipynb`**) you need to:
+   - Open Anaconda Navigator
+   - Click on Launch Jupyter notebook (it will open in your browser)
+   - Upload the unzipped folder (with all the corresponding files) to Jupyter Notebook (the location is up to you)
+   - Go inside the folder and open the **`ipynb`** file
+   - Now you can explore the tutorial by running each cell accordingly (click on the **play button** in the menu). Just bear in mind that the variable values are stored, so you need to clear all the outputs manually every time you want to intiate the whole program. Go to the Jupyter Notebook menu on top, select **Kernel** and then **Restart & Clear Output**.
+
+All the tutorial instructions will be in the **`ipynb`** file.
+
 ### Files
-- Download the source code (the .zip file will do) from the [releases section](https://github.com/Team-Nando-Training/Tutorial-DERHostingCapacity-2-TimeSeries_LV/releases) or clone the entire repository to your local drive using GitHub Desktop. Unzip the file. It is important to place all the unzipped files in the same folder.
-- Although there are multiple files, the following are the **key files** that will be uploaded to Jupyter Notebook.  
+- Although there are multiple files, the following are the **key files**.  
    - File 1. `Tutorial-DERHC-2.ipynb` - the main Jupyter file  
    - File 2. `LVcircuit-topology.png` - the graph of the test LV circuit  
    - Files 3 to 8. `LVcircuit-master.txt`, `LVcircuit-transformers.txt`, `LVcircuit-linecodes.txt`, `LVcircuit-lines.txt`, `LVcircuit-serviceLines.txt`, `LVcircuit-loads.txt` - the OpenDSS commands that describe the test LV circuit  
    - File 9. `Residential load data 30-min resolution.npy` - the 30-min resolution dataset of house load  
    - File 10. `Residential PV data 30-min resolution.npy` - the 30-min resolution dataset of PV output  
-- Run Jupyter Notebook (it will open a tab on your browser). Jupyter Notebook uses a localhost address to store and manage files. You can either upload files on its webpage or access your local folder for direct copy and paste. You can also change the default address of Jupyter Notebook in its config file.
-- Upload the **key files** (create a folder to be more organised).
-- Here is a way for the beginner to run the .ipynb file
-  - Open **Anaconda Prompt** and type "jupyter notebook --notebook-dir=`your address stored this project`". For example, jupyter notebook --notebook-dir=C:\OpenDSS
-  - Jupyter notebook will be opened in your browse. Click on `Tutorial-DERHC-2.ipynb`and you can play now.
 
-### Execute the `Tutorial-DERHC-2.ipynb` file
-- The tutorial will appear on a new tab.
-- Now you can explore the tutorial by running each cell accordingly (click on the **play button** on the left). Just bear in mind that the variable values are stored, so you need to clear all the outputs manually every time you want to intiate the whole program. Go to the Jupyter Notebook menu on top, select **Kernel** and then **Restart & Clear Output**.
 
 ## Credits
 ### This Repo and Adaptations to the Original Python Code
