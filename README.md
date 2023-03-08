@@ -1,5 +1,3 @@
-Last update: 1/12/2022
-
 # Tutorial on DER Hosting Capacity - Part 2: Time-Series Analysis of Three-Phase Unbalanced LV Networks
 
 ## Tutorial on DER Hosting Capacity
