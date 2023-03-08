@@ -18,10 +18,10 @@ After doing this tutorial, you are expected to:
 - Understand how to determine the solar PV hosting capacity of LV networks.
 
 ### Pre-Requisites for Part 2
-- You should have completed [Part 1](https://github.com/Team-Nando-Training/Tutorial-DERHostingCapacity-1-AdvancedToolsLV) and, of course, be familiar with [OpenDSS and the modelling of distribution networks and DERs](https://sites.google.com/view/luisfochoa/research-tools/opendss-training-material).
+- You should have completed [Part 1](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-1-AdvancedToolsLV) and, of course, be familiar with [OpenDSS and the modelling of distribution networks and DERs](https://sites.google.com/view/luisfochoa/research-tools/opendss-training-material).
 
 ## Run Part 2
-Make sure you have installed Anaconda, the dss_python module, etc. as specified in [Part 0](https://github.com/Team-Nando-Training/Tutorial-DERHostingCapacity-0-dss_python). Otherwise, you will not be able to go through the tutorial.
+Make sure you have installed Anaconda, the dss_python module, etc. as specified in [Part 0](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-0-dss_python). Otherwise, you will not be able to go through the tutorial.
 
 1. Download all the files using the green **`<> Code`** button at the top right.
    - You will get a ZIP file with a folder that contains all the files.
