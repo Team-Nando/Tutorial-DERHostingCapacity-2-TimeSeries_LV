@@ -1,4 +1,4 @@
-# Tutorial on DER Hosting Capacity - Part 2: Time-Series Analysis of Three-Phase Unbalanced LV Networks
+# Tutorial on DER Hosting Capacity - Part 2: Time-Series Analysis and PV Hosting Capacity of LV Networks
 
 ## Tutorial on DER Hosting Capacity
 
@@ -6,7 +6,7 @@ This multi-part Tutorial on Distributed Energy Resource (DER) Hosting Capacity w
 
 This Tutorial is designed for power engineering students (undergraduate and postgraduate), power engineers, researchers, consultants, etc. It requires coding knowledge - of course!. But not too advanced. If you are a decent coder, you will manage ;-)
 
-## Part 2: Time-Series Analysis of Three-Phase Unbalanced LV Networks
+## Part 2: Time-Series Analysis and PV Hosting Capacity of LV Networks
 
 Part 2 is about carrying out different time-series analyses of low voltage (LV) networks.
 
