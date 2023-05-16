@@ -8,12 +8,10 @@ This Tutorial is designed for power engineering students (undergraduate and post
 
 ## Part 2: Time-Series Analysis and PV Hosting Capacity of LV Networks
 
-Part 2 is about carrying out different time-series analyses of low voltage (LV) networks.
+The objectives of this tutorial are:
+1. To familiarise with **advanced tools** useful to run distribution network studies involving DER. You will be using the programming language Python and the advanced distribution network analysis tool [OpenDSS](https://www.epri.com/pages/sa/opendss), an open source tool developed by the [Electric Power Research Institute (EPRI)](https://www.epri.com) in the US. OpenDSS will be used here entirely with Python code thanks to the [dss_python](https://github.com/dss-extensions/dss_python) module developed by researchers at the [University of Campinas](https://www.unicamp.br/unicamp/) in Brazil. And, to guide you, all will be done using a notebook on [Jupyter Notebook](https://jupyter.org/).
 
-After doing this tutorial, you are expected to:
-- Gain more understanding of the characteristics and behaviour of residential, three-phase LV distribution networks.
-- Understand the simulation process necessary to study different solar PV penetration levels and assess the corresponding voltage rise and/or asset congestion issues.
-- Understand how to determine the solar PV hosting capacity of LV networks.
+2. To interact with the **dss_python module** and show how it replaces using OpenDSS via the COM interface. This module makes simulations and the handling of data/results much faster as everything will be native to Python.
 
 ### Pre-Requisites for Part 2
 - You should have completed [Part 1](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-1-AdvancedToolsLV) and, of course, be familiar with [OpenDSS and the modelling of distribution networks and DERs](https://sites.google.com/view/luisfochoa/research-tools/opendss-training-material).
