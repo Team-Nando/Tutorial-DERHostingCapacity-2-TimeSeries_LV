@@ -14,7 +14,8 @@ The objectives of this tutorial are:
 2. To interact with the **dss_python module** and show how it replaces using OpenDSS via the COM interface. This module makes simulations and the handling of data/results much faster as everything will be native to Python.
 
 ### Pre-Requisites for Part 2
-- You should have completed [Part 1](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-1-AdvancedToolsLV) and, of course, be familiar with [OpenDSS and the modelling of distribution networks and DERs](https://sites.google.com/view/luisfochoa/research-tools/opendss-training-material).
+- You should have completed [Part 1](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-1-AdvancedToolsLV).
+- For this part you just need Python (Anaconda) and the dss_python module. OpenDSS was only needed in Part 0 for demonstration purposes.
 
 ## Run Part 2
 Make sure you have installed Anaconda, the dss_python module, etc. as specified in [Part 0](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-0-dss_python). Otherwise, you will not be able to go through the tutorial. To guarantee that you have all the necessary packages you can also run the  **`requirements.txt`** file using  **`pip install -r requirements.txt`** on the Anaconda prompt.
