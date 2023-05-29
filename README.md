@@ -32,6 +32,8 @@ Make sure you have installed Anaconda, the dss_python module, etc. as specified 
 
 All the tutorial instructions will be in the **`ipynb`** file.
 
+Enjoy! 🤓
+
 ### Files
 - Although there are multiple files, the following are the **key files**.  
    - File 1. `Tutorial-DERHC-2.ipynb` - the main Jupyter file  
