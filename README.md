@@ -9,9 +9,9 @@ This Tutorial is designed for power engineering students (undergraduate and post
 ## Part 2: Time-Series Analysis and PV Hosting Capacity of LV Networks
 
 The objectives of this tutorial are:
-1. To familiarise with the process by which power engineers can carry out time-series analyses and determine the PV Hosting Capacity of a given LV distribution network. To achieve this, you will run multiple time-series power flows with different PV penetratration levels and assess when the resulting effects go beyond the capabilities of a given LV network.
+1. To familiarise with the process by which power engineers can carry out **time-series analyses and determine the PV Hosting Capacity of a given LV distribution network**. To achieve this, you will run multiple time-series power flows with different PV penetratration levels and assess when the resulting effects go beyond the capabilities of a given LV network.
 
-2. To continue familiarising with the advanced tool OpenDSS using Python and the dss_python module. And, to guide you, all will be done using a notebook on Jupyter Notebook.
+2. To continue familiarising with **advanced tools** useful to run distribution network studies involving DERs. You will continue using [OpenDSS](https://www.epri.com/pages/sa/opendss) via the [dss_python](https://github.com/dss-extensions/dss_python) module. And, to guide you, all will be done using a notebook on [Jupyter Notebook](https://jupyter.org/).
 
 ### Pre-Requisites for Part 2
 - You should have completed [Part 1](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-1-AdvancedToolsLV).
