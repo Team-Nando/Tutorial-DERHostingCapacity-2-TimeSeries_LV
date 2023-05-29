@@ -2,16 +2,16 @@
 
 ## Tutorial on DER Hosting Capacity
 
-This multi-part Tutorial on Distributed Energy Resource (DER) Hosting Capacity will guide you, using interactive code via Jupyter Notebook and Python, through the different steps to run advanced, detailed time-series simulations to properly assess the technical impacts of DERs (such as solar photovoltaics) on realistic three-phase unbalanced distribution networks. Throuhought this tutorial we will be using [OpenDSS](https://sourceforge.net/projects/electricdss/) - an open source distribution network analysis tool developed by the Electric Power Research Instutite ([EPRI](https://www.epri.com/)), USA. OpenDSS will be used here entirely with Python code thanks to the [dss_python](https://github.com/dss-extensions/dss_python) module developed by researchers at the [University of Campinas](https://www.unicamp.br/unicamp/) in Brazil. So, thanks to our colleagues and friends at EPRI and at UNICAMP for this important contribution to the world! 
+This multi-part Tutorial on Distributed Energy Resource (DER) Hosting Capacity will guide you, using interactive code via Jupyter Notebook and Python, through the different steps to run advanced, detailed time-series simulations to properly assess the technical impacts of DERs (such as solar photovoltaics ☀️🏡) on realistic three-phase unbalanced distribution networks.
 
-This Tutorial is designed for power engineering students (undergraduate and postgraduate), power engineers, researchers, consultants, etc. It requires coding knowledge - of course!. But not too advanced. If you are a decent coder, you will manage ;-)
+This Tutorial is designed for power engineering students (undergraduate and postgraduate), power engineers, researchers, consultants, etc. It requires some knowledge of coding (of course! 🤓) but not too advanced. If you are a decent coder, you will manage 😉.
 
 ## Part 2: Time-Series Analysis and PV Hosting Capacity of LV Networks
 
 The objectives of this tutorial are:
-1. To familiarise with **advanced tools** useful to run distribution network studies involving DER. You will be using the programming language Python and the advanced distribution network analysis tool [OpenDSS](https://www.epri.com/pages/sa/opendss), an open source tool developed by the [Electric Power Research Institute (EPRI)](https://www.epri.com) in the US. OpenDSS will be used here entirely with Python code thanks to the [dss_python](https://github.com/dss-extensions/dss_python) module developed by researchers at the [University of Campinas](https://www.unicamp.br/unicamp/) in Brazil. And, to guide you, all will be done using a notebook on [Jupyter Notebook](https://jupyter.org/).
+1. To familiarise with the process by which power engineers can carry out time-series analyses and determine the PV Hosting Capacity of a given LV distribution network. To achieve this, you will run multiple time-series power flows with different PV penetratration levels and assess when the resulting effects go beyond the capabilities of a given LV network.
 
-2. To interact with the **dss_python module** and show how it replaces using OpenDSS via the COM interface. This module makes simulations and the handling of data/results much faster as everything will be native to Python.
+2. To continue familiarising with the advanced tool OpenDSS using Python and the dss_python module. And, to guide you, all will be done using a notebook on Jupyter Notebook.
 
 ### Pre-Requisites for Part 2
 - You should have completed [Part 1](https://github.com/Team-Nando/Tutorial-DERHostingCapacity-1-AdvancedToolsLV).
