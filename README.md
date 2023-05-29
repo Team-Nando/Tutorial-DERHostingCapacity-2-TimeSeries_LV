@@ -34,15 +34,6 @@ All the tutorial instructions will be in the **`ipynb`** file.
 
 Enjoy! 🤓
 
-### Files
-- Although there are multiple files, the following are the **key files**.  
-   - File 1. `Tutorial-DERHC-2.ipynb` - the main Jupyter file  
-   - File 2. `LVcircuit-topology.png` - the graph of the test LV circuit  
-   - Files 3 to 8. `LVcircuit-master.txt`, `LVcircuit-transformers.txt`, `LVcircuit-linecodes.txt`, `LVcircuit-lines.txt`, `LVcircuit-serviceLines.txt`, `LVcircuit-loads.txt` - the OpenDSS commands that describe the test LV circuit  
-   - File 9. `Residential load data 30-min resolution.npy` - the 30-min resolution dataset of house load  
-   - File 10. `Residential PV data 30-min resolution.npy` - the 30-min resolution dataset of PV output  
-
-
 ## Credits
 ### This Repo and Adaptations to the Original Python Code
 Angela Simonovska (asimonovska@student.unimelb.edu.au)  
